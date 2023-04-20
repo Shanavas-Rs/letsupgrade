@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sum of Array Elements</title>
+</head>
+<body>
+	<h1>Sum of Array Elements</h1>
+
+	<p id="result"></p>
+
+	<script>
+		// Define the array
+		let numbers = [1, 2, 3, 4, 5];
+
+		// Initialize the sum
+		let sum = 0;
+
+		// Loop through the array and add each element to the sum
+		for (let i = 0; i < numbers.length; i++) {
+			sum += numbers[i];
+		}
+
+		// Display the result in the DOM
+		let resultElement = document.getElementById("result");
+		resultElement.innerHTML = "The sum of the elements is " + sum;
+	</script>
+</body>
+</html>
